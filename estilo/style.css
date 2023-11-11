@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --botao:#0866FF;
+    --fundo:#242526;
+    --lperfil:#E4E6Eb;
+    --lp2:#5AA7FF;
+    --qda:#B0B3B8;
+}
+
+body, html {
+    font-family: sans-serif;
+    width: 600px;
+}
+
+/*body, main {
+    background-color: var(--fundo);
+
+    width: 600px;
+} */
+
+header {
+    background-color: var(--fundo);
+    width: 600px;
+    height: 30px;
+}
+
+section, article {
+    background-color: var(--fundo);
+    width: 600px;
+}
+
+header > h1 {
+    display: inline-block;
+    color: white;
+    font-size: 1.3em;
+}
+
+header #pf {
+    margin-left: 5px;
+    color: white;
+    font-size: 1.2em;
+}
+
+header .lado {
+    position: relative;
+    left: 49%;
+    color: var(--botao);
+    text-align: right;
+}
+
+main > img {
+    position: absolute;
+    width: 600px;
+}
+
+section img {
+    position: relative;
+    width: 180px;
+    margin-left: 36px;
+    margin-top: 78px;
+
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+section > h2 {
+    color: white;
+    margin-top: 10px;
+    margin-left: 19px;
+}
+
+form > input {
+    background-color: var(--botao);
+    color: white;
+    font-size: 1.1em;
+
+    padding: 4px;
+    margin: 15px;
+
+    width: 565px;
+    height: 40px;
+
+    border-radius: 5px;
+    border: 0px;
+
+    cursor: pointer;
+}
+
+form .b2 {
+    background-color: #2425268c;
+    color: white;
+
+    width: 500px;
+    height: 40px;
+
+    margin: auto;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+    border: 1px solid var(--lperfil);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.5);
+    
+    cursor: pointer;
+}
+
+form .b3{
+    background-color: #2425268c;
+    color: white;
+
+    width: 40px;
+    height: 40px;
+
+    border: 1px solid var(--lperfil);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+}
+
+article > p {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 1em;
+
+    color: var(--lperfil);
+}
+
+.material-icons {
+    margin-left: 15px;
+    color: var(--qda);
+    font-size: 1em;
+
+    cursor: pointer;
+}
+
+article a {
+    color: var(--botao);
+    text-decoration: none;
+}
+
+aside h4 {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+
+    color:white;
+}
+
+aside h5 {
+    color: var(--lperfil);
+    margin-left: 15px;
+}
+
+aside span {
+    position: relative;
+    top:-31px;
+    left: 500px;
+
+    margin-top: 5px;
+
+    color: var(--lp2);
+
+    cursor: pointer;
+}
+
+div.glr img {
+    height: 135px;
+    width: 135px;
+
+    border: 0px;
+    border-radius: 10px;
+
+}
+
+.glr #am1, #am2, #am3 {
+    display: inline-block;
+    text-align: center;
+
+    color: var(--lperfil);
+}
+
+.glr {
+    position: relative;
+    top: -70px;
+}
